@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!----------------------------------------------------- Top Bar -------------------------------------->
+  <div class="topbar bg-black text-white py-2">
+    <ul class="list-unstyled d-flex w-75 justify-content-center align-items-center gap-4 mx-auto mb-0">
+      <li><a class="nav-link text-white" href="#">Home</a></li>
+      <li><a class="nav-link text-white" href="#">Join VIP Club</a></li>
+      <li><a class="nav-link text-white" href="#">My Account</a></li>
+      <li><a class="nav-link text-white" href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <!---------------------------------------------------- Navbar --------------------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-2 ">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="./public/logo.png" alt="brand-logo" width="150">
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links + icons -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Dropdowns -->
+        <ul class="navbar-nav mx-auto my-2 my-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Outwear</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Tops</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Bottoms</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Custom Gear</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Accessories</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Do It Yourself</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Gifts</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">What's New</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black  " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Shop By Organization</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Icons -->
+        <div class="navbar-icons d-flex ms-auto mt-2 mt-lg-0">
+          <a href="#" class="mx-1  p-2 rounded-circle d-flex justify-content-center align-items-center">
+            <img src="public/Magnifer.svg" alt="Search" width="20" height="20">
+          </a>
+          <a href="#" class="mx-1  p-2 rounded-circle d-flex justify-content-center align-items-center">
+            <img src="public/pfp.svg" alt="Profile" width="20" height="20">
+          </a>
+          <a href="#" class="mx-1 bg-black p-2 rounded-circle d-flex justify-content-center align-items-center">
+            <img src="public/cart.svg" alt="Cart" width="20" height="20">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- -----------------------------------------------------section 1--------------------- -->
+  <main>
+
+    <section class="hero-section">
+      <div id="heroCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+ 
+          <!-- Loop for 6 slides -->
+          <div class="carousel-item active">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">YOU DREAM IT</h1>
+                  <h1 class="herotwo s4gh">WE DESIGN IT</h1>
+                  <p class="my-3 fw-bold">Find out who jacket of the year</p>
+                  <p>Get inspired. Read the stories and watch the videos.</p>
+                  <p>See who was voted best jacket.</p>
+                  <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                    View Photo Gallery
+                    <img src="public/arrowwhite.png" class="ms-3" alt="">
+                  </a>
+                  <a href="#" class="btn btn-outline-dark px-4 py-2">
+                    View Design Library
+                    <img src="public/arrowblack.png" class="ms-3" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <img src="public/hero-img.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">GREEK WEAR</h1>
+                  <h1 class="heroone s4gh">FOR YOUR</h1>
+                  <h1 class="herotwo s4gh">WHOLE GROUP</h1>
+                  <p class="my-3 fw-bold">Save upto 30%</p>
+                  <p>Homecoming. Anniversary. Reunions. Probates. Look </p>
+                  <p>good together, whatever the occasion.</p>
+                  <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                    Start Here
+                    <img src="public/arrowwhite.png" class="ms-3" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <img src="public/Rectangle 1.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">TAKE A CLOSER</h1>
+                  <h1 class="herotwo s4gh">LOOK AT OUR</h1>
+                  <h1 class="herotwo s4gh">QUALITY</h1>
+                  <p class="my-3 ">At first glance, these jackets might look similar. </p>
+                  <p>But let’s examine the details</p>
+                  <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                    Shop Now
+                    <img src="public/arrowwhite.png" class="ms-3" alt="">
+                  </a>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                  <img src="public/hero-img.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">GREEK </h1>
+                  <h1 class="herotwo s4gh">LAWN CHAIR</h1>
+                  <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                    Get Yours Here
+                    <img src="public/arrowwhite.png" class="ms-3" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <img src="public/hero-img.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">THE HOTTEST </h1>
+                  <h1 class="herotwo s4gh">CUSTOM JACKETS</h1>
+                  <h1 class="herotwo s4gh">ON EARTH</h1>
+                  <p class="my-3 fw-bold">On Sale For a Limited Time Offer</p>
+                  <p class="my-3 ">You dream it. We design it. Create your custom </p>
+                  <p class="my-3 ">Greek masterpiece today.</p>
+                  <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                    Shop Now
+                    <img src="public/arrowwhite.png" class="ms-3" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <img src="public/hero-img.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="carousel-item">
+            <div class="container-fluid px-0">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-6 px-lg-5 text-center text-lg-start">
+                  <h1 class="heroone s4gh">GIVE THE </h1>
+                  <h1 class="herotwo s4gh">PERFECT GIFT </h1>
+                  <p class="my-3 fw-bold">Order now to save on guaranteed Christmas delivery.
+                    Production and shipping fees will increase as it gets closer to the holidays.</p>
+                  <a href="#" class="btn btn-outline-dark px-4 py-2">
+                    View Design Library
+                    <img src="public/arrowblack.png" class="ms-3" alt="">
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <img src="public/hero-img.png" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </section>
+    <!-- --------------------------------------------SECTION TWO------------------------ -->
+    <section class="py-2">
+      <div class="container-fluid px-3">
+        <div class="row g-3">
+
+          <!-- Left Partition -->
+          <div class="col-12 col-lg-6 p-0">
+            <div class="position-relative  text-white" style="height:500px; 
+              background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                          url('public/Rectangle\ 870.png') center/cover no-repeat; 
+              padding: 30px;">
+              <div class="position-absolute top-50 ">
+                <h2 class="fw-bold s4gh">FROM UNIQUE IDEA TO </h2>
+                <h2 class="fw-bold s4gh">YOUR JACKET BACK </h2>
+                <p class="lead">You dream it, we design it.</p>
+                <a href="#" class="btn btn-dark me-2 px-4 py-2">
+                  Shop Now
+                  <img src="public/arrowwhite.png" class="ms-3" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Partition -->
+          <div class="col-12 col-lg-6 p-0">
+            <div class="position-relative  text-white" style="height:500px; 
+              background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                          url('public/Rectangle\ 871.png') center/cover no-repeat; 
+              padding: 30px;">
+              <div class="position-absolute top-50 ">
+                <h2 class="fw-bold s4gh ">LIFETIME EMBRORIDERY</h2>
+                <h2 class="fw-bold s4gh">GURANTEE</h2>
+                <p class="lead">Plus our 100% Accuracy Guarantee that it will look just like your mockup (included free
+                  with every order)</p>
+                <a href="#" class="btn btn-light mt-2">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------------------------------------SECTION 3------------------------------- -->
+
+    <section class="py-2 ">
+      <div class="container ">
+        <div class="row g-3">
+
+          <!-- Left Partition -->
+          <div class="col-12 col-lg-6 p-0 px-3">
+            <h2 class="s4gh" >Greek Fraternity and Sorority Clothing Store</h2>
+            <img src="public/Rectangle 874.png" class="img-fluid" alt="img">
+          </div>
+          <!-- Right Partition -->
+          <div class="col-12 col-lg-6 p-0 px-3">
+            <p>If you've been looking for a Greek store that can truly customize your Greek apparel - everything from
+              fraternity shirts and jackets, to sorority hoodies and clothes - then you've come to the right place. Any
+              Greek store can stitch Greek letters on clothing, but only stuff4GREEKS can turn you into a walking piece
+              of art. We are a team of real artists, and most of us are members of Greek-letter organizations. We can
+              help you create custom artwork for your clothing, then once you approve the design, we embroider it on
+              your Greek wear ourselves. Our headquarters is in Atlanta, Georgia, but we ship all over the world.
+
+            </p>
+            <p>No matter what type of Greek gear you need, whether it be t-shirts, custom line jackets, paddles, or
+              anything in between, we take your fraternity and sorority apparel to the next level! We specialize in
+              premium Greek merchandise, meaning that we don't cut corners and sell cheap products. We only offer the
+              finest-quality Greek paraphernalia. We also make custom Masonic and Eastern Star (OES) apparel.
+            </p>
+            <p>
+              We are known for our outstanding quality, service, and creativity. If you want to design your own
+              customized Greek wear on sweatshirts, sweaters, or even on screen printed t-shirts, then we can help you
+              create your masterpiece. Our motto is "you dream it, we design it," and since 1999, we have been regarded
+              as the paraphernalia of choice.
+
+            </p>
+            <p>But don't take our word for it... see what our customers have to say by reading our customer testimonials
+              and looking through our photo gallery.
+            </p>
+            <p>
+
+              When you're ready to make a purchase, you can shop by organization or view all custom Greek products.</p>
+            <a href="#" class="btn btn-dark me-2 px-4 py-2 my-1">
+              Learn More
+              <img src="public/arrowwhite.png" class="ms-3" alt="">
+            </a>
+            <a href="#" class="btn btn-outline-dark px-4 py-2 my-1">
+              Shop By Organization
+              <img src="public/arrowblack.png" class="ms-3" alt="">
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------SECTION 4-------------------------- -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 p-0 px-lg-5 d-flex justify-content-between text-center">
+            <h2 class="s4gh" >We Specialize in Custom Greek Apparel, Greek Merchandise and Gifts</h2>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- --------------------------------------SECTION 5 SLIDER----------------------------- -->
+
+    <section>
+      
+    </section>
+
+    <!-- --------------------------------------SECTION 6---------------------------------- -->
+    <section>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8 p-0 px-lg-5 d-flex justify-content-between px-3">
+              <h2 class="s4gh" >OUR MOST POPULAR GREEK FRATERNITY AND SORORITY MERCHANDISE</h2>
+            </div>
+            <div class="col-12 col-lg-3  justify-content-center text-center px-3">
+              <a href="#" class="btn btn-dark me-2 px-4 py-2 my-1">
+                Show all Products
+                <img src="public/arrowwhite.png" class="ms-3" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
+      <!-- ---------------------------------------SECTION 7 products slider--------------------------- -->
+
+      <section>
+
+      </section>
+
+
+      <!-- ---------------------------------------SECTION 8------------------------------------ -->
+
+
+  </main>
+
+  <script src="./js/bootstrap.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

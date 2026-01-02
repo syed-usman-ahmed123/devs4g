@@ -1,0 +1,36 @@
+
+.navbar-icons a:hover {
+    opacity: 0.8;
+}
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-item {
+    background-color: rgb(214, 214, 214);
+}
+.heroone{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -3px;
+
+}
+.herotwo{
+   font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #0A9C78;
+}
+p{
+    color: black;
+}
+.btnone{
+    background-color: black;
+}
