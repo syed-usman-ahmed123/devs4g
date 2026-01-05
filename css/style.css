@@ -109,10 +109,93 @@ p {
 
 }
 
-.section3{
+.section3 {
     border: 10px solid #0A9C78;
 }
-/* ----------------------------------------------------FOOTER---------------------------------------- */
-.fot-list{
+
+.vip-section {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+        url('../../public/bannerone.png') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    color: #fff;
+}
+
+
+/* Custom Button Styling */
+.btn-vip {
+    background-color: #00a884;
+    /* Green color from image */
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-vip:hover {
+    background-color: #008f70;
+    color: white;
+}
+
+/* Text Shadow for better readability */
+.vip-section h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: -1px;
+}
+
+.section9{
+    background-color: #0A9C78;
+    width: 1440px;
+}
+.fot-list {
     border-right: 1px solid #ffffff;
+}
+
+
+.order-section {
+    /* Image ko background mein set kiya */
+    background-image: url('../../public/bannertwo.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+/* Heading ki sizing aur spacing */
+.order-section h1 {
+    line-height: 0.9;
+    letter-spacing: -1px;
+}
+
+/* Black Button Styling */
+.btn-dark-custom {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Outline Button Styling */
+.btn-outline-light-custom {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Mobile par layout adjust karne ke liye */
+@media (max-width: 768px) {
+    .order-section {
+        text-align: center;
+        padding-top: 100px;
+    }
+    .d-flex {
+        justify-content: center;
+    }
 }
