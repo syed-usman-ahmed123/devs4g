@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-/* Background image */
+
 #heroCarousel .carousel-item {
     min-height: 100vh;
     background-size: cover;
@@ -24,13 +24,13 @@
     background-repeat: no-repeat;
 }
 
-/* Content upar rahe */
+
 #heroCarousel .container-fluid {
     position: relative;
     z-index: 2;
 }
 
-/* Custom indicators positioning */
+
 .custom-indicators {
     position: absolute;
     left: 6%;
@@ -38,7 +38,7 @@
     margin: 0;
 }
 
-/* Stick style */
+
 .custom-indicators button {
     width: 70px;
     height: 6px;
@@ -49,13 +49,13 @@
     margin-right: 10px;
 }
 
-/* Active stick */
+
 .custom-indicators .active {
     background-color: #17a673;
-    /* green */
+
 }
 
-/* Mobile center */
+
 @media (max-width: 991px) {
     .custom-indicators {
         left: 50%;
@@ -123,10 +123,9 @@ p {
 }
 
 
-/* Custom Button Styling */
+
 .btn-vip {
     background-color: #00a884;
-    /* Green color from image */
     color: white;
     border-radius: 8px;
     font-weight: 500;
@@ -139,23 +138,28 @@ p {
     color: white;
 }
 
-/* Text Shadow for better readability */
+
 .vip-section h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: -1px;
 }
 
-.section9{
+.section9 {
     background-color: #0A9C78;
-    width: 1440px;
+
 }
+
+.wid {
+    /* width: 1440px; */
+}
+
 .fot-list {
     border-right: 1px solid #ffffff;
 }
 
 
 .order-section {
-    /* Image ko background mein set kiya */
+
     background-image: url('../../public/bannertwo.webp');
     background-size: cover;
     background-position: center;
@@ -163,39 +167,75 @@ p {
     min-height: 500px;
 }
 
-/* Heading ki sizing aur spacing */
+
 .order-section h1 {
     line-height: 0.9;
     letter-spacing: -1px;
 }
 
-/* Black Button Styling */
-.btn-dark-custom {
-    background-color: #000000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
 
-/* Outline Button Styling */
-.btn-outline-light-custom {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: 500;
-}
 
-/* Mobile par layout adjust karne ke liye */
 @media (max-width: 768px) {
     .order-section {
         text-align: center;
         padding-top: 100px;
     }
+
     .d-flex {
         justify-content: center;
     }
+}
+
+
+
+
+/* ----------------------------------------------------------ABOUT------------------------------ */
+
+
+
+
+/* ---------------------------------------------------------BLOG-------------------------------- */
+.blog-ban {
+    background: url('../../public/blogone.webp') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    color: #fff;
+    position: relative;
+}
+
+
+.gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right,
+            rgba(10, 156, 120, 0.9) 0%,
+            rgba(10, 156, 120, 0.6) 20%,
+            rgba(10, 156, 120, 0.2) 40%,
+            rgba(0, 10, 8, 0) 100%);
+    z-index: 0;
+}
+
+
+.blog-card:hover {
+    background-color: #0A9C78;
+}
+
+.blog-card {
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+/* -----------------------------------------------------------SHOP ONE------------------------ */
+
+
+.shop-ban {
+    background: url('../../public/shopone.webp') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    color: #fff;
+    position: relative;
 }
