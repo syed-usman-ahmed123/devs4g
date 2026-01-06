@@ -239,3 +239,63 @@ p {
     color: #fff;
     position: relative;
 }
+
+/* ---------------------------------------------CONTACT US------------------------------- */
+
+
+.contact-container {
+    padding: 60px 0;
+}
+
+.contact-info h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.contact-info h4 {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.form-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.form-control,
+.form-select {
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.btn-send {
+    background-color: #00a67c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-send:hover {
+    background-color: #008f6a;
+    color: white;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 40px 0;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin: 0 20px;
+}
