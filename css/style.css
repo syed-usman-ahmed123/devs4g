@@ -149,9 +149,7 @@ p {
 
 }
 
-.wid {
-    /* width: 1440px; */
-}
+
 
 .fot-list {
     border-right: 1px solid #ffffff;
@@ -295,7 +293,192 @@ p {
 }
 
 .vertical-line {
-    border-left: 1px solid #ccc;
-    height: 100%;
-    margin: 0 20px;
+    width: 1px;
+    height: 80px;
+    background-color: #000;
 }
+
+
+
+
+
+/* ------------------------------------------------------HOW IT WORKS----------------------------- */
+
+.s4g-process {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #29b48b;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #29b48b;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.start-dot {
+    top: -8px;
+}
+
+.end-dot {
+    bottom: -8px;
+}
+
+
+.img-frame {
+    border: 10px solid #29b48b;
+    line-height: 0;
+}
+
+.img-frame img {
+    width: 100%;
+    max-width: 450px;
+}
+
+
+.step-text {
+    color: #29b48b;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.step-text::after {
+    content: '';
+    height: 1px;
+    width: 60px;
+    background: #ced4da;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.text-md-end .step-text {
+    flex-direction: row-reverse;
+}
+
+.text-md-end .step-text::after {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Impact', sans-serif;
+    margin: 10px 0;
+    letter-spacing: -1px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 767px) {
+    .timeline-line {
+        display: none;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .step-text::after {
+        width: 40px;
+    }
+}
+
+
+
+
+/* -------------------------------------------------------FAQS ONE-------------------------------- */
+
+
+.s4g-faq {
+    background-color: #F2F2F2;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    border-color: #dee2e6 !important;
+}
+
+
+.accordion-button {
+    background-color: transparent !important;
+    color: #000 !important;
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    padding: 25px 0;
+    box-shadow: none !important;
+    text-transform: uppercase;
+}
+
+
+.accordion-button::after {
+    background-size: 1rem;
+    transition: transform 0.2s;
+}
+
+.accordion-button:not(.collapsed) {
+    border-bottom: 0;
+}
+
+
+.accordion-body {
+    padding-top: 0;
+    padding-bottom: 30px;
+    color: #444;
+    font-size: 1rem;
+}
+
+
+/* 1. Default State  */
+.accordion-button::after {
+    transform: rotate(270deg);
+    transition: transform 0.3s ease;
+    
+}
+
+/* 2. Open State  */
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
+}
+
+
+
+@media (max-width: 767px) {
+    .accordion-button {
+        font-size: 1rem;
+        padding: 20px 0;
+    }
+}
+
+
+
+
+/* -----------------------------------------------------FAQS TWO------------------------------------- */
+
+       .seal-img {
+        color: #0A9C78 !important;
+       }
