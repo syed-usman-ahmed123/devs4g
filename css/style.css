@@ -214,7 +214,9 @@ p {
     z-index: 0;
 }
 
-
+.blog-card{
+    background-color: #F2F2F2;
+}
 .blog-card:hover {
     background-color: #0A9C78;
 }
@@ -536,3 +538,8 @@ p {
            
 
         }
+       
+        .faqtwoban{
+            border: 10px solid #0A9C78;
+        }
+        
