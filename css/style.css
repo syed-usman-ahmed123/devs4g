@@ -214,9 +214,10 @@ p {
     z-index: 0;
 }
 
-.blog-card{
+.blog-card {
     background-color: #F2F2F2;
 }
+
 .blog-card:hover {
     background-color: #0A9C78;
 }
@@ -459,7 +460,7 @@ p {
 .accordion-button::after {
     transform: rotate(270deg);
     transition: transform 0.3s ease;
-    
+
 }
 
 /* 2. Open State  */
@@ -481,65 +482,177 @@ p {
 
 /* -----------------------------------------------------FAQS TWO------------------------------------- */
 
-       .seal-img {
-        color: #0A9C78 !important;
-       }
-
-      
+.seal-img {
+    color: #0A9C78 !important;
+}
 
 
-       .faqtwoheading {
-            font-weight: 700;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-            color: #000;
-        }
 
-        
-        .policy-card {
-            min-height: 250px; 
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-           
-        }
 
-      
-        .card-num {
-          
-            font-weight: 700;
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
+.faqtwoheading {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #000;
+}
 
-       
-      
-        
-       
-        .bg-custom-gray {
-            background-color: #F2F2F2;
-            color: #1a1a1a;
-        }
 
-      
-        .card-text {
-            font-size: 1rem;
-            font-weight: 500;
-            line-height: 1.4;
-        }
+.policy-card {
+    min-height: 250px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-        .policy-card{
-            transition: all 0.3s ease;
-        }
-        .policy-card:hover {
-           background-color: #0A9C78;
-           
+}
 
-        }
-       
-        .faqtwoban{
-            border: 10px solid #0A9C78;
-        }
-        
+
+.card-num {
+
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.bg-custom-gray {
+    background-color: #F2F2F2;
+    color: #1a1a1a;
+}
+
+
+.card-text {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.policy-card {
+    transition: all 0.3s ease;
+}
+
+.policy-card:hover {
+    background-color: #0A9C78;
+
+
+}
+
+.faqtwoban {
+    border: 10px solid #0A9C78;
+}
+
+
+
+
+/* ---------------------------------------------------------ORDER------------------------------------------- */
+
+
+.group-toggle-container {
+    background-color: #0A9C78;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-group-item {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+
+.btn-group-item.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-group-item:hover {
+    color: #fff;
+}
+
+
+@media (max-width: 576px) {
+    .group-toggle-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-group-item {
+        flex: 1;
+    }
+}
+
+
+.order-card {
+    background-color: #F2F2F2 !important;
+    min-height: 400px;
+}
+
+.order-card {
+    transition: all 0.3s ease !important;
+}
+
+.order-card:hover {
+    background-color: #0A9C78 !important;
+}
+
+.s4g-order-video {
+    background-color: #0A9C78;
+}
+
+
+.text-justify {
+    text-align: justify;
+}
+
+.custom-heading {
+    font-weight: 900;
+    letter-spacing: -1px;
+    display: inline-block;
+}
+
+
+
+
+.tenxborder {
+    border: 10px solid #0A9C78;
+}
+
+
+.table thead th {
+    background-color: #108a65;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+.table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+h1.group-title {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.video-container {
+    position: relative;
+    background: #000;
+}
+
+.custom-border {
+    border-style: solid;
+    border-color: #0A9C78;
+    border-width: 0px 10px 10px 10px; 
+}
