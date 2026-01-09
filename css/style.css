@@ -648,11 +648,54 @@ h1.group-title {
 
 .video-container {
     position: relative;
-    background: #000;
+    background: white;
+    height: 520px;
+}
+
+.frame {
+    height: 430px;
+    width: 98%;
+    margin: 5px;
+
+
 }
 
 .custom-border {
     border-style: solid;
     border-color: #0A9C78;
-    border-width: 0px 10px 10px 10px; 
+    border-width: 10px 10px 5px 10px;
+}
+
+.ctm-border {
+    border-style: solid;
+    border-color: #0A9C78;
+    border-width: 10px 10px 5px 10px;
+}
+
+.img-desc {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+.custom-border-box {
+    border: 10px solid #0A9C78;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.c-border{
+    border-style: solid;
+    border-color: #0A9C78;
+    border-width: 5px 10px 10px 10px;
+}
+
+
+.video-container iframe {
+    border: none;
+}
+
+.object-fit-cover {
+    object-fit: cover;
 }
